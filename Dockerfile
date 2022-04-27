@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 WORKDIR /work
 
-ADD package* .
+ADD package* ./
 RUN npm ci
 
 ADD . .
