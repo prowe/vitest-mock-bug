@@ -1,9 +1,7 @@
-FROM node:16-alpine
+FROM node:16.14.2-alpine
 
-WORKDIR /work
+COPY . /usr/app
+WORKDIR /usr/app
 
-ADD package* ./
 RUN npm ci
-
-ADD . .
 RUN npm test
