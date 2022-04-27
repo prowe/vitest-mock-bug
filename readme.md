@@ -1,0 +1,1 @@
+This repo reproduces a bug where vitest can mock an ESM module when runnin on MacOS (node 16). But fails to mock when running inside a docker container (16-alpine).
