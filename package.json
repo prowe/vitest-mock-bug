@@ -1,0 +1,16 @@
+{
+  "name": "vitest-mock-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^0.10.0"
+  }
+}
